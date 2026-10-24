@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="380" viewBox="0 0 1200 380" role="img" aria-labelledby="title desc">
+  <title id="title">Physical Computing Pathways</title>
+  <desc id="desc">A learning journey from GCBASIC through Arduino IDE and C++ to MicroPython and BLE, organized as 8-Bit Classics, ARM Mountain, and Wireless Wonders.</desc>
+  <rect width="1200" height="380" rx="24" fill="#10283F"/>
+  <path d="M48 38H1152" stroke="#2D4B65" stroke-width="2"/>
+  <g font-family="DejaVu Sans,Arial,sans-serif">
+    <text x="48" y="78" fill="#73DBCA" font-size="14" font-weight="700" letter-spacing="3">A HANDS-ON LEARNING JOURNEY</text>
+    <text x="48" y="132" fill="#FFFFFF" font-size="43" font-weight="700">Physical Computing Pathways</text>
+    <text x="48" y="168" fill="#C2D4E3" font-size="19">Make something happen. Understand its behavior. Connect it.</text>
+    <rect x="48" y="205" width="346" height="116" rx="14" fill="#1B3852"/>
+    <rect x="426" y="205" width="346" height="116" rx="14" fill="#1B3852"/>
+    <rect x="804" y="205" width="348" height="116" rx="14" fill="#1B3852"/>
+    <rect x="48" y="205" width="6" height="116" rx="3" fill="#F6BC68"/>
+    <rect x="426" y="205" width="6" height="116" rx="3" fill="#80BBFF"/>
+    <rect x="804" y="205" width="6" height="116" rx="3" fill="#73DBCA"/>
+    <text x="72" y="235" fill="#F6BC68" font-size="12" font-weight="700" letter-spacing="2">01 / 8-BIT CLASSICS</text>
+    <text x="72" y="270" fill="#FFFFFF" font-size="26" font-weight="700">GCBASIC</text>
+    <text x="72" y="298" fill="#C2D4E3" font-size="15">Inputs, outputs &amp; timing</text>
+    <text x="450" y="235" fill="#80BBFF" font-size="12" font-weight="700" letter-spacing="2">02 / ARM MOUNTAIN</text>
+    <text x="450" y="270" fill="#FFFFFF" font-size="26" font-weight="700">Arduino IDE / C++</text>
+    <text x="450" y="298" fill="#C2D4E3" font-size="15">State, structure &amp; control</text>
+    <text x="828" y="235" fill="#73DBCA" font-size="12" font-weight="700" letter-spacing="2">03 / WIRELESS WONDERS</text>
+    <text x="828" y="270" fill="#FFFFFF" font-size="26" font-weight="700">MicroPython + BLE</text>
+    <text x="828" y="298" fill="#C2D4E3" font-size="15">Connected virtual instruments</text>
+    <path d="M401 260H418M412 254L418 260L412 266M779 260H796M790 254L796 260L790 266" stroke="#BBD0E1" stroke-width="2" fill="none"/>
+    <text x="48" y="351" fill="#91AEC5" font-size="13">PREDICT  /  BUILD  /  MEASURE  /  EXPLAIN  /  IMPROVE</text>
+  </g>
+</svg>

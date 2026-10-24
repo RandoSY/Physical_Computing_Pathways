@@ -29,8 +29,10 @@ held-button behavior, pause/resume, tick rollover, BLE packet generation and
 disconnect/re-advertise behavior using a mock radio. The C++ executable checks
 timing, debounce, pause/resume and unsigned timer rollover.
 
-GitHub Actions is configured for host/core tests and Uno compilation. It has
-not been run remotely as part of this record. No claim is made that host
+GitHub Actions passed both host/core checks and Uno compilation on published
+commit `0b4d9762b897ef701072b703598673be515d6d37`.
+[Initial workflow run](https://github.com/RandoSY/Physical_Computing_Pathways/actions/runs/40111720515)
+completed successfully on 2026-10-24. No claim is made that host
 mocks validate a specific MicroPython firmware build or physical radio.
 
 ## Not yet validated
