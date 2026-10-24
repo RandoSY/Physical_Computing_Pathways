@@ -1,0 +1,20 @@
+' Lesson 1: a held button changes the blink rate. External breadboard wiring.
+' RA0: LED through 1k resistor to GND; RA2: button to GND, 10k pull-up to VDD.
+' Uses RA2 instead of the programming/reset pin RA3. Not AC103011 pin mapping.
+#chip 10F322, 4
+Dir PORTA.0 Out
+Dir PORTA.2 In
+Do
+  Set PORTA.0 On
+  If PORTA.2 = 0 Then
+    Wait 100 ms
+  Else
+    Wait 500 ms
+  End If
+  Set PORTA.0 Off
+  If PORTA.2 = 0 Then
+    Wait 100 ms
+  Else
+    Wait 500 ms
+  End If
+Loop

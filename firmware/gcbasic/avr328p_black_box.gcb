@@ -1,0 +1,23 @@
+' Lesson 2: same experiment on Uno + common multifunction shield.
+' PB5 = D13 active-low LED; PC1 = A1 active-low shield button with pull-up.
+#chip mega328p, 16
+Dir PORTB.5 Out
+Dir PORTC.1 In
+Set PORTC.1 On
+' Silence common active-low buzzer at D3.
+Dir PORTD.3 Out
+Set PORTD.3 On
+Do
+  Set PORTB.5 Off
+  If PORTC.1 = 0 Then
+    Wait 100 ms
+  Else
+    Wait 500 ms
+  End If
+  Set PORTB.5 On
+  If PORTC.1 = 0 Then
+    Wait 100 ms
+  Else
+    Wait 500 ms
+  End If
+Loop

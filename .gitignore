@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.venv/
+build/
+*.hex
+*.elf
+*.bin
+capture.csv
+trace.html
+.DS_Store
+/core_test
+/core_test.exe
+*.ihx
+*.lk
+*.rel
